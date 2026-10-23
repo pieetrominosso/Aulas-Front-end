@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurante - Cardápio</title>
+</head>
+<body>
+  <header>
+    <nav aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <form action="#" method="get">
+      <label for="buscar">Buscar:</label>
+      <input type="search" id="buscar" name="buscar" placeholder="Buscar prato...">
+      <button type="submit">Buscar</button>
+    </form>
+  </header>
+
+  <main>
+    <section id="inicio" aria-labelledby="titulo-destaque">
+      <h1 id="titulo-destaque">Destaque</h1>
+    </section>
+
+    <section id="horarios" aria-labelledby="titulo-horarios">
+      <h2 id="titulo-horarios">Horários</h2>
+      <ul>
+        <li>Segunda a sexta: 11h às 15h e 18h às 23h</li>
+        <li>Sábado: 11h às 23h</li>
+        <li>Domingo: 11h às 17h</li>
+      </ul>
+    </section>
+
+    <section id="localizacao" aria-labelledby="titulo-localizacao">
+      <h2 id="titulo-localizacao">Localização</h2>
+      <address>
+        Rua Exemplo, 123 - Centro<br>
+        Joinville - SC
+      </address>
+    </section>
+
+    <p><a href="#cardapio">Ver Cardápio</a></p>
+
+    <section id="cardapio" aria-labelledby="titulo-cardapio">
+      <h2 id="titulo-cardapio">Cardápio</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Prato</th>
+            <th scope="col">Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Prato 1</td>
+            <td>R$ 00,00</td>
+          </tr>
+          <tr>
+            <td>Prato 2</td>
+            <td>R$ 00,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <h2>Contato</h2>
+    <p>Telefone: (47) 0000-0000</p>
+    <p>WhatsApp: (47) 90000-0000</p>
+    <p>E-mail: <a href="mailto:contato@restaurante.com">contato@restaurante.com</a></p>
+    <p>&copy; 2026 Restaurante. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
